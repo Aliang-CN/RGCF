@@ -3,9 +3,11 @@ import os
 import sys
 
 os.environ['TF_CPP_MIN_LOG_LEVEL'] = '2'
-
+import sys
+sys.path.append('../')
 from utility.helper import *
 from utility.batch_test import *
+
 
 class RGCF(object):
 
